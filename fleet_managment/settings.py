@@ -11,14 +11,14 @@ template_root = os.path.join(root, 'templates')
 blacklist_templates = ('layouts',)
 
 #DB settings, this user will be created and granted permissions.
-DB_USER_USER = 'db_user'
-DB_USER_PASS = 'db_pass'
+DB_USER_USER = 'root'
+DB_USER_PASS = 'root'
 
 #HTTP Settings
 HTTPS = False
 HTTPS_PORT = 443
 HTTP_PORT = 80
-BASEDIR="/root/fleet_managment/"
+BASEDIR="/usr/trucks/fleet_managment/"
 CERTFILE = BASEDIR + "cert_files/server.crt"
 KEYFILE = BASEDIR + "cert_files/server.key"
 
