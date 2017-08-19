@@ -5,7 +5,7 @@ This is a fleet managment solution.
 
 ## Getting this repo ##
 ```bash
-git clone git@github.com:terribleindustries/fleet_managment.git
+git clone git@github.com:bkjk100/trucks.git
 exit
 ```
 
@@ -15,8 +15,14 @@ It is necessary to install dependencies in order to test the site locally before
 ### Debian-based ###
 ```bash
 cat apt-requirements | xargs sudo apt-get install
+sudo apt-get install libmysqlclient-dev
+sudo apt-get install python-setuptools python-dev build-essential 
+sudo easy_install pip 
 sudo pip install -r requirements
 ```
+
+pip install requests
+pip install twilio
 
 ## Install Requirements ##
 In order to run this, you need to create the setup file.
